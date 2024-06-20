@@ -1,37 +1,38 @@
 var numeroEncontrar = 0;
 var tentativas = 0;
 
-function atualizar(){
+function atualizar() {
     numeroEncontrar = parseInt(Math.random() * 100);
 
-console.log(numeroEncontrar)
+    console.log(numeroEncontrar)
 }
 
-function verificarNumero(){
+function verificarNumero() {
     var aposta = document.getElementById('aposta').value;
 
-    if(aposta > 100 || aposta < 0){
+    if (aposta > 100 || aposta < 0) {
         alert('Aposta Inválida');
     }
 
-    else if(aposta > numeroEncontrar){
+    else if (aposta > numeroEncontrar) {
         tentativas++;
         alert('Número Menor');
     }
 
-    else if(aposta < numeroEncontrar){
+    else if (aposta < numeroEncontrar) {
         tentativas++;
         alert('Número Maior');
     }
 
     else {
-        alert('PARABÉNS, Você Acertou com '+tentativas+' erros');
+        alert('PARABÉNS, Você Acertou com ' + tentativas + ' erros');
     }
 
 }
 
-function atualizarJogo(){
+function atualizarJogo() {
     atualizar();
+
 }
 
 
