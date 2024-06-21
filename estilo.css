@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -86,3 +87,91 @@ h2 {
 h2 {
     font-size: 20px;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* todos elementos dentro da mesma borda*/
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    
+}
+
+p {
+    color: #61ee97d3;
+}
+
+.botao {
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 250px;
+    background-color: #00722ca5;
+    box-shadow: 0 0 5px 3px #00471b;
+    border: 3px solid;
+    border-radius: 20px;
+    border-color: #00471b;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .2s;
+    font-family: "Oxanium", sans-serif;
+    font-size: 30px;
+}
+
+.botao:hover{
+    border-color: #019138;
+}
+
+input {
+    width: 50%;
+    height: 70px;
+    background-color: #00722ca5;
+    border: solid 3px #00471b;
+    box-shadow: 0 0 5px 3px #00471b;
+    padding: 20px 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Oxanium", sans-serif;
+}
+input::placeholder{
+    color: #ffffff9e;
+    font-size: 18px;
+    font-family: "Oxanium", sans-serif;
+}
+
+.contente{
+justify-content: center;
+background-color: #00b1443d;
+border-radius: 50px;
+box-shadow: 0 0 5px 3px #00471b;
+padding: 50px 3%;
+    
+}
+
+.container{
+    margin-right: 35%;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: justify;
+    text-indent: 80px;
+}
+
+
+
+h1, h2{
+    color: #61ee97d3;
+    font-family: "Oxanium", sans-serif;
+    
+}
+
+h2{
+    font-size: 20px;
+}
+>>>>>>> 442c5dfc5ca68a56ce341e9bbcd851defa934eff
