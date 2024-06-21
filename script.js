@@ -35,5 +35,7 @@ function atualizarJogo() {
 
 }
 
+atualizar();
+
 
 

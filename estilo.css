@@ -5,12 +5,12 @@
     /* todos elementos dentro da mesma borda*/
 }
 
-body{
+body {
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
 
-    
+
 }
 
 p {
@@ -34,7 +34,7 @@ p {
     font-size: 30px;
 }
 
-.botao:hover{
+.botao:hover {
     border-color: #019138;
 }
 
@@ -50,22 +50,23 @@ input {
     font-size: 20px;
     font-family: "Oxanium", sans-serif;
 }
-input::placeholder{
+
+input::placeholder {
     color: #ffffff9e;
     font-size: 18px;
     font-family: "Oxanium", sans-serif;
 }
 
-.contente{
-justify-content: center;
-background-color: #00b1443d;
-border-radius: 50px;
-box-shadow: 0 0 5px 3px #00471b;
-padding: 50px 3%;
-    
+.contente {
+    justify-content: center;
+    background-color: #00b1443d;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 3px #00471b;
+    padding: 50px 3%;
+
 }
 
-.container{
+.container {
     margin-right: 35%;
     margin-left: 10%;
     margin-top: 10%;
@@ -75,12 +76,13 @@ padding: 50px 3%;
 
 
 
-h1, h2{
+h1,
+h2 {
     color: #61ee97d3;
     font-family: "Oxanium", sans-serif;
-    
+
 }
 
-h2{
+h2 {
     font-size: 20px;
 }
